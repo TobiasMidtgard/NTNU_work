@@ -35,7 +35,7 @@ def update(ball, width, height, sound):
             pygame.quit()  # exit pygame
             sys.exit()  # end program
         elif event.type == pygame.KEYDOWN:
-            if event.key == K_ESCAPE:
+            if event.key == pygame.K_ESCAPE:
                 pygame.quit()
                 sys.exit()
 
